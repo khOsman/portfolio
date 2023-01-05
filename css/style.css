@@ -210,8 +210,48 @@ main {
     color: #757575;
 }
 
-.btn-container{
+.btn-container {
     margin-top: 50px;
     display: flex;
     justify-content: center;
+}
+
+/* Footer */
+footer {
+   
+    background: #FFF8F3;
+}
+
+/* Contact */
+.contact {
+    margin-top: 130px;
+    padding: 130px 200px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;   
+}
+
+.contact  .section-title {
+
+   text-align: left;
+}
+
+.contact  .section-description {
+    text-align: left;
+    color: #757575;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.contact input[type="text"],input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding:18px 30px;
+}
+
+input{
+    height:64px ;
 }
